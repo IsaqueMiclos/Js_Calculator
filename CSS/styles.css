@@ -1,0 +1,103 @@
+/*Adjusts*/
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+}
+
+body {
+    background-color: #1a1f1c;
+}
+
+.container {
+    max-width: 1920px;
+    width: 100%;
+    right: auto;
+    left: auto;
+    box-sizing: border-box;
+}
+
+/*All-calculator*/
+#all-calculator {
+    position: relative;
+    margin: 15px auto;
+    min-width: 300px;
+    max-width: 325px;
+    height: auto;
+    background-color: transparent;
+    padding: 5px;
+}
+
+/*Display*/
+
+.display-container {
+    width: 100%;
+    padding: 20px 0;
+    text-align: right;
+    background-color: #1b2549;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+#calculator-display {
+    color: #FFF;
+    font-size: 26pt;
+    padding: 10px;
+}
+
+/*Calculator-body*/
+
+.calculator-body {
+    background-color: #2b3454;
+    border: 1px solid #000000;
+    border-radius: 10px;
+    padding: 10px 0;
+    position: relative;
+}
+
+#calculator-table {
+    position: relative;
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    margin: 0 auto;
+}
+
+#calculator-table tr td{
+    min-width: 20px;
+    background-color: transparent;
+    padding: 5px;
+    transition: .6s;
+}
+
+#calculator-table tr td button {
+    min-width: 100%;
+    cursor: pointer;
+    padding: 20px 0px;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-size: 12pt;
+    background-color: rgb(197, 192, 192);
+    transition: 0.5s;
+}
+
+/*Button-animations*/
+
+#calculator-table tr td button:hover {
+    background-color: #1b2549;
+    color: #fff;
+}
+
+/*Footer*/
+
+#footer {
+    background-color: #2b3454;
+    padding: 10px;
+    text-align: center;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    color: #FFF;
+    font-size: 13.5pt;
+}
